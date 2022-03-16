@@ -2,8 +2,8 @@ import * as React from "react";
 import { Button, HStack, Stack, Textarea } from "@chakra-ui/react";
 import { constants } from "ethers";
 import Avatar from "@davatar/react";
-import { useAccount } from "wagmi";
-import useAddComment from "../hooks/useAddComment";
+// import { useAccount } from "wagmi";
+// import useAddComment from "../hooks/useAddComment";
 
 interface CommentEditorProps {
     topic: string;
